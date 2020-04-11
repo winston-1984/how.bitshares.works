@@ -86,7 +86,9 @@ We talked about "Transfer Operation" Fees. Some of the transfer fees depend on t
 How to Profit by Issuing an Asset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-There are many ways to profit from issuing an asset. As the issuer you have complete control over market fees and can tune parameters such as the percent of each trade that is collected as a fee. This percentage can be bounded by a minimum and maximum fee. The combination of these three parameters give issuers great flexibility in pricing.
+As the asset issuer, you have complete control the percent of each trade that is collected as a market fee:
+
+This percentage can be bounded by a minimum and maximum fee.  The asset issuer may choose distinct fees for Makers and Takers to encourage orderbook liquidity.   A "Maker" is a trader that puts a limit order onto the orderbooks.  A "Taker" is one who fills an existing order.   Additionally, the asset issuer may lock the fee in permanently by renouncing the asset fee Permission.   The combination of these parameters give issuers great flexibility in pricing.
 
 
 Fee Pools
